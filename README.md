@@ -53,8 +53,8 @@ $ make install
 
 ### Setup
 
-First we must register the validator's Ethereum key. This key will be used to
-sign claims going from Ethereum to Umee and to sign any transactions sent to
+To get started we must register the validator's Ethereum key. This key will be used to
+sign claims going from Ethereum to Umee, in addition to signing any transactions sent to
 Ethereum (batches or validator set updates).
 
 ```shell
@@ -112,17 +112,17 @@ Any ERC20 token can be sent to Umee and it's done using the command
 can also be done by calling the `sendToCosmos` method on the Gravity Bridge contract.
 
 The ERC20 tokens will be locked in the Gravity Bridge contract and new coins will be
-minted on Umee with the denomination `gravity{token_address}`. This process takes
+minted on Umee with the denomination `gravity{token_address}`. This process usually takes
 around 3 minutes or 12 Ethereum blocks.
 
-## How it works
+## How Peggo Works
 
 Peggo allows transfers of assets back and forth between Ethereum and Umee.
 It supports both assets originating on Umee and assets originating on Ethereum
 (any ERC20 token).
 
-It works by scanning the events of the contract deployed on Ethereum (Gravity) and
-relaying them as messages to the Umee chain; and relaying transaction batches and
+Peggo works by scanning the events of the contract deployed on Ethereum (Gravity) and
+relaying them as messages to the Umee chain. In addition to relaying transaction batches and
 validator sets from Umee to Ethereum.
 
 ### Events and messages observed/relayed
