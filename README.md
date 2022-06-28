@@ -53,7 +53,7 @@ $ make install
 
 ### Setup
 
-To get started we must register the validator's Ethereum key. This key will be used to
+To get started we must first register the validator's Ethereum key. This key will be used to
 sign claims going from Ethereum to Umee, in addition to signing any transactions sent to
 Ethereum (batches or validator set updates).
 
