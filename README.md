@@ -10,8 +10,8 @@
 [![Lines Of Code](https://img.shields.io/tokei/lines/github/umee-network/peggo?style=flat-square)](https://github.com/umee-network/peggo)
 [![GitHub Super-Linter](https://img.shields.io/github/workflow/status/umee-network/peggo/Lint?style=flat-square&label=Lint)](https://github.com/marketplace/actions/super-linter)
 
-Peggo is a Go implementation of the Gravity Bridge Orchestrator originally
-implemented by [Injective Labs](https://github.com/InjectiveLabs/). Peggo itself
+Peggo is a Go implementation of the Gravity Bridge Orchestrator, which enables users to transfer tokens between the Ethereum and Cosmos blockchains (originally
+implemented by [Injective Labs](https://github.com/InjectiveLabs/)). Peggo itself
 is a fork of the original Gravity Bridge Orchestrator implemented by [Althea](https://github.com/althea-net).
 
 
