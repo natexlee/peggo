@@ -22,6 +22,21 @@ is a fork of the original Gravity Bridge Orchestrator implemented by [Althea](ht
 - [How to run](#how-to-run)
 - [How it works](#how-it-works)
 
+## Quick Info
+- [Non Technical Documentation](https://docs.google.com/document/d/1hF4MleEK5kQ3a01tVj2fvr24pRpQIXxyij2opq-8PRs/edit?usp=sharing)
+### Umeemania
+- [Gravity Contract](https://goerli.etherscan.io/address/0xF65032bf68036AF27E056F2713f67a26d7ff36Ba)
+- [ERC-20 Token](https://goerli.etherscan.io/token/0x389e749bf12c864814a2ea94ea92b95833b475ed)
+- [Umee App](https://app.umee.cc/)
+
+### Mainnet
+
+- [Gravity Contract](https://etherscan.io/address/0xb564ac229e9d6040a9f1298b7211b9e79ee05a2c)
+- [ERC-20](https://etherscan.io/address/0xc0a4df35568f116c370e6a6a6022ceb908eeddac#code)
+- [Umee App](https://app.umee.cc/)
+
+
+
 ## Dependencies
 
 - [Go 1.17+](https://golang.org/dl/)
