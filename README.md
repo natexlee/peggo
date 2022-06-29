@@ -54,8 +54,14 @@ $ make install
 ### Setup
 
 To get started we must first register the validator's Ethereum key. This key will be used to
-sign claims going from Ethereum to Umee, in addition to signing any transactions sent to
+sign claims going from Ethereum to Umee in addition to signing any transactions sent to
 Ethereum (batches or validator set updates).
+
+Claims are an Ethereum event signed and submitted to cosmos by a single 'Orchestrator' instance.
+
+Batches are a group of transactions of the same token being crossed. 
+
+Set Updates: Umee validators changes it's power to sign contracts, which means we need to alert the smart contract that the validator's power to sign contracts has changed. 
 
 ```shell
 $ umeed tx gravity set-orchestrator-address \
