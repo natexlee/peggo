@@ -57,9 +57,9 @@ To get started we must first register the validator's Ethereum key. This key wil
 sign claims going from Ethereum to Umee in addition to signing any transactions sent to
 Ethereum (batches or validator set updates).
 
-Claims are an Ethereum event signed and submitted to cosmos by a single 'Orchestrator' instance.
+Claims: An Ethereum event signed and submitted to cosmos by a single 'Orchestrator' instance.
 
-Batches are a group of transactions of the same token being crossed. 
+Batches: A group of transactions of the same token being sent across blockchains. 
 
 Set Updates: Umee validators changes it's power to sign contracts, which means we need to alert the smart contract that the validator's power to sign contracts has changed. 
 
