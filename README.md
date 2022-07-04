@@ -24,18 +24,6 @@ is a fork of the original Gravity Bridge Orchestrator implemented by [Althea](ht
 
 ## Quick Info
 - [Non Technical Documentation](https://docs.google.com/document/d/1hF4MleEK5kQ3a01tVj2fvr24pRpQIXxyij2opq-8PRs/edit?usp=sharing)
-### Umeemania
-- [Gravity Contract](https://goerli.etherscan.io/address/0xF65032bf68036AF27E056F2713f67a26d7ff36Ba)
-- [ERC-20 Token](https://goerli.etherscan.io/token/0x389e749bf12c864814a2ea94ea92b95833b475ed)
-- [Umee App](https://app.umee.cc/)
-
-### Mainnet
-
-- [Gravity Contract](https://etherscan.io/address/0xb564ac229e9d6040a9f1298b7211b9e79ee05a2c)
-- [ERC-20](https://etherscan.io/address/0xc0a4df35568f116c370e6a6a6022ceb908eeddac#code)
-- [Umee App](https://app.umee.cc/)
-
-
 
 ## Dependencies
 
@@ -59,9 +47,9 @@ Ethereum (batches or validator set updates).
 
 Claims: An Ethereum event signed and submitted to Cosmos by a single 'Orchestrator' instance.
 
-Batches: A group of transactions of the same token being sent across blockchains. 
+Batches: A group of transactions of the same token being sent from Cosmos to Ethereum (or EVM compatible chain). 
 
-Set Updates: Umee validator changes it's power to sign contracts, which means we need to alert the smart contract that the validator's power to sign contracts has changed. 
+Validator Set Updates: Umee's validator set makes "authorized" calls to the Gravity contract, which means we need to alert the smart contract that the validator set has changed.
 
 ```shell
 $ umeed tx gravity set-orchestrator-address \
